@@ -4,6 +4,7 @@
 	"name": {
 		"en": "Cube",
 		"nl": "Cube",
+		"fr": "Cube",
 		"de": "Würfel"
 	},
 	"class": "sensor",
@@ -54,6 +55,7 @@
 			"image": "/drivers/cube/assets/learn.svg",
 			"instruction": {
 				"en": "Hold the Cube during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times\nNote: keep pressing the reset button every 2 seconds to keep the sensor awake during the inclusion",
+				"fr": "Tenir le cube pendant l'inclusion à proximité de votre Homey\nAppuyez longuement sur le bouton de réinitialisation pendant plus de 3 secondes jusqu'à ce que le voyant bleu clignote trois fois\nNote: continuez à appuyer sur le bouton de réinitialisation toutes les 2 secondes pour maintenir le capteur en éveillé pendant l'inclusion",
 				"nl": "Houd tijdens het toevoegen de Cube in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert\nNote: blijf de reset knop iedere 2 seconden indrukken om de sensor wakker te houden tijden het toevoegen",
 				"de": "Halte den Würfel nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten"
 			}
@@ -68,10 +70,12 @@
 			"type": "number",
 			"label": {
 				"en": "Relative rotation angle (xx° = 100%)",
+				"fr": "Angle de rotation relatif (xx° = 100%)",
 				"nl": "Relatieve hoekverdraaing (xx° = 100%)"
 			},
 			"hint": {
 				"en": "This setting will translate the actual measured rotation angle in a relative rotation angle that can be used to increase or decrease dim-level / volume.\nxx° = 100%\nRange: 90 - 360, \ndefault: 180 [°]",
+				"fr": "Ce paramètre convertit l’angle de rotation réel mesuré en un angle de rotation relatif pouvant être utilisé pour augmenter ou diminuer le niveau de luminosité / volume.\nxx° = 100%\nPlage: 90 - 360, \ndefaut: 180 [°]",
 				"nl": "Deze instelling vertaalt de gemeten hoekverdraaing in een relatieve hoekverdraaing die gebruikt kan worden voor het verhogen of verlagen van het volume.\nxx° = 100%\nBereik: 90 - 360, \nstandaard: 180 [°]"
 			},
 			"value": 180,
@@ -85,10 +89,12 @@
 			"type": "number",
 			"label": {
 				"en": "Battery alarm threshold (%)",
+				"fr": "Seuil d'alarme batterie (%)",
 				"nl": "Batterij alarm waarde (%)"
 			},
 			"hint": {
 				"en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
+				"fr": "Niveau de la batterie (%) en dessous duquel l'alarme de batterie sera activée.\nPlage: 1 - 90, \ndefaut: 20 [%]",
 				"nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
 			},
 			"value": 20,

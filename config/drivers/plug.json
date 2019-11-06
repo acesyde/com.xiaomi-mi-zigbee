@@ -3,6 +3,7 @@
 	"branch": "master",
 	"name": {
 		"en": "Smart socket plug",
+		"fr": "Smart socket plug",
 		"nl": "Smart socket plug",
 		"de": "Smart socket plug"
 	},
@@ -27,6 +28,7 @@
 			"image": "/drivers/plug/assets/learn.svg",
 			"instruction": {
 				"en": "Long press the power button to open more than 5 seconds until the led flashes red one time and then flashes blue three times",
+				"fr": "Appuyez longuement sur le bouton d'alimentation pendant plus de 5 secondes jusqu'à ce que le voyant clignote en rouge une fois, puis en bleu trois fois",
 				"nl": "Long press the power button to open more than 5 seconds until the led flashes red one time and then flashes blue three times",
 				"de": "Drücke den Power Knopf mehr als 5 Sekunden und lasse ihn los sobald das rote Licht einmal blinkt. Danach blinkt das blaue Licht zwei mal."
 			}

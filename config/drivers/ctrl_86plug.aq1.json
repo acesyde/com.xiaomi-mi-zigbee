@@ -4,6 +4,7 @@
 	"name": {
 		"en": "Aqara Smart Socket",
 		"nl": "Aqara Smart Socket",
+		"fr": "Aqara Smart Socket",
 		"de": "Aqara Smarte Steckdose"
 	},
 	"class": "socket",
@@ -28,6 +29,7 @@
 			"instruction": {
 				"en": "Long press the power button to open more than 5 seconds until the red light flashes three times after release",
 				"nl": "Long press the power button to open more than 5 seconds until the red light flashes three times after release",
+				"fr": "Appuyez longuement sur le bouton d'alimentation plus de 5 secondes jusqu'à ce que le voyant rouge clignote trois fois après l'avoir relaché",
 				"de": "Drücke den Power Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das rote Licht 3 Mal."
 			}
 		}

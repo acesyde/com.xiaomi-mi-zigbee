@@ -3,6 +3,7 @@
   "branch": "master",
   "name": {
     "en": "Aqara LED Bulb",
+    "fr": "Aqara LED Bulb",
     "nl": "Aqara LED Bulb",
     "de": "Aqara LED Bulb"
   },
@@ -36,6 +37,7 @@
     "learnmode": {
       "instruction": {
         "en": "Toggle the bulb on/off 5 times until the bulb blinks twice quickly to start pairing.",
+        "fr": "Activez / désactivez l'ampoule 5 fois jusqu'à ce que l'ampoule clignote deux fois rapidement pour commencer l'appariement.",
         "nl": "Zet, om de lamp toe te voegen, de lamp 5 keer achter elkaar uit en weer aan totdat de lamp twee keer snel knippert.",
         "de": "Schalte die Lampe 5 mal an und aus bis die Lampe 2 mal schnell hintereinander blinkt"
       }
@@ -55,6 +57,7 @@
     },
     "hint": {
       "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+      "fr": "Ce paramètre détermine le temps en secondes qu'il faut pour passer d'un niveau à un autre.",
       "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
       "de": "Diese Einstellung bestimmt wie lange es dauert die Helligkeit zu verändern."
     },
